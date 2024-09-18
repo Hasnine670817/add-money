@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Money</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    
+    <div class="max-wdt">
+        <div class="amount-value">Your amount: <span  id="nit-amount">8000</span></div>
+
+        <div class="d-flex flex-div">
+            <button id="add-money">Add Money</button>
+            <button id="add-pin">Add Pin</button>
+        </div>
+
+        <div class="form-div">
+            <form>
+                <label for="type-amount">
+                    <span>Amount</span>
+                    <input type="tel" id="type-amount" placeholder="Enter your amount">
+                </label>
+                <label for="type-pin">
+                    <span>Pin</span>
+                    <input type="password" id="type-pin" placeholder="Enter your pin">
+                </label>
+                <button id="add-btn">Add</button>
+            </form>
+        </div>
+    </div>
+
+
     <script src="js/script.js"></script>
 </body>
 </html>
