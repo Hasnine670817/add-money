@@ -95,7 +95,8 @@ span {
     outline: none;
 }
 
-#add-btn {
+#add-btn,
+#cash-btn {
     font-size: 15px;
     font-weight: 600;
     background-color: #C1650B;

@@ -13,10 +13,10 @@
 
         <div class="d-flex flex-div">
             <button id="add-money">Add Money</button>
-            <button id="add-pin">Add Pin</button>
+            <button id="cash-out">Cash Out</button>
         </div>
 
-        <div class="form-div">
+        <div class="form-div" id="form-div1">
             <form>
                 <label for="type-amount">
                     <span>Amount</span>
@@ -26,7 +26,21 @@
                     <span>Pin</span>
                     <input type="password" id="type-pin" placeholder="Enter your pin" required>
                 </label>
-                <button id="add-btn">Add</button>
+                <button id="add-btn">Add Money</button>
+            </form>
+        </div>
+
+        <div class="form-div" id="form-div2" style="display: none;">
+            <form>
+                <label for="type-amount">
+                    <span>Amount</span>
+                    <input type="tel" id="type-amount1" placeholder="Enter your amount" required>
+                </label>
+                <label for="type-pin">
+                    <span>Pin</span>
+                    <input type="password" id="type-pin1" placeholder="Enter your pin" required>
+                </label>
+                <button id="cash-btn">Cash Out</button>
             </form>
         </div>
     </div>
